@@ -19,7 +19,8 @@ Student [] s1=new Student[20];
 
 ### 3.定义新对象时的内存分配
 
-![image-20220326195805375](C:\Users\ysy2001 0615\AppData\Roaming\Typora\typora-user-images\image-20220326195805375.png)
+![image](https://user-images.githubusercontent.com/87485783/177168778-61b2dd0f-3a4c-497d-bd59-48790bcbca51.png)
+
 
 虚拟机栈即为平时提到的栈结构，**局部变量一般存储于栈结构中**，**堆，我们将new出来的结构（比如：数组、对象）加载在堆空间中，对象的属性（非static)加载在堆空间中。**
 
@@ -29,7 +30,7 @@ Student [] s1=new Student[20];
 
 ### 4.对象数组的内存解析
 
-![image-20220327101830229](C:\Users\ysy2001 0615\AppData\Roaming\Typora\typora-user-images\image-20220327101830229.png)
+![image](https://user-images.githubusercontent.com/87485783/177168972-951598a2-eae7-43f6-8d0d-9caf24b5d570.png)
 
 ------
 
@@ -303,7 +304,7 @@ public boolean equals(Object obj){
 
 #### 使多实例共享数据
 
-<img src="C:\Users\ysy2001 0615\AppData\Roaming\Typora\typora-user-images\image-20220413190338482.png" alt="image-20220413190338482" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/87485783/177169134-edf6305e-f4c9-4013-a62e-56c60636623e.png)
 
 ##### 使用范围：属性，方法，代码块，内部类                 属性若声明为静态，与该属性相关的方法也要为静态
 
@@ -397,7 +398,7 @@ return single;
 
 ##### main方法也是一种静态方法
 
-<img src="C:\Users\ysy2001 0615\AppData\Roaming\Typora\typora-user-images\image-20220415102959490.png" alt="image-20220415102959490" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/87485783/177169212-08f5c816-eafb-4f83-9cd5-ba5acdbf095f.png)
 
 ------
 
@@ -441,7 +442,7 @@ total = 100;//为total赋初值
 
 **5.每次创建对象的时候，都会执行一次。且先于构造器执行。**
 
-<img src="C:\Users\ysy2001 0615\AppData\Roaming\Typora\typora-user-images\image-20220415111401669.png" alt="image-20220415111401669" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/87485783/177169299-c2aba106-9f13-49a1-8c73-679e13d5e0c3.png)
 
 ------
 
